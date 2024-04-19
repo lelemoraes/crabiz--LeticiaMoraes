@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #969696; /* Preto */
+}
+
+header {
+    background-color: #000; /* Preto */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px; /* Ajuste conforme necessário */
+    margin-top: 1px;
+}
+
+select[name="usuario"] {
+    background-color: #f7d020; /* Amarelo */
+    color: #000; /* Preto */
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+    width: 800px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid #f7d020; /* Amarelo */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chat-header {
+    background-color: #000; /* Preto */
+    color: #f7d020; /* Amarelo */
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-messages {
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.message {
+    background-color: #000000; /* Preto */
+    color: #f7d020; /* Amarelo */
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.message.sent {
+    background-color: #f7d020; /* Amarelo */
+    color: #000; /* Preto */
+    align-self: flex-end;
+}
+
+.message-input {
+    display: flex;
+    margin-top: 160px;
+    margin-left: 5px;
+}
+
+.message-input input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #f7d020; /* Amarelo */
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.message-input button {
+    padding: 8px 15px;
+    background-color: #faf5f5; /* Preto */
+    color: #f7d020; /* Amarelo */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.image-left, .image-right {
+    flex: 1;
+}
+
+.image-left img, .image-right img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #000; /* Preto */
+    color: #f7d020; /* Amarelo */
+    text-align: center;
+    padding: 10px 0;
+}
